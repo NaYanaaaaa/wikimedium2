@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>composition</title>
+    <style media="screen">
+      .black {
+        width: 60px;
+        height: 500px;
+        background: black;
+        position: absolute;
+        top: 50px;
+        left: 300px;
+        z-index: 1;
+        transform: rotate(-30deg);
+        transition: all .10s ease-out;
+      }
+      .black:hover {
+        height: 500px;
+        transform: rotate(-45deg);
+        transition: all .1s ease-out;
+      }
+      .green {
+        width: 130px;
+        height: 80px;
+        background: #296E35;
+        position: absolute;
+        top: 150px;
+        left: 130px;
+
+        z-index: 2;
+        transform: rotate(-30deg);
+      }
+      .green:hover {
+        transform: scale(45deg);
+        background: #F6472C;
+      }
+      .circle {
+        width: 300px;
+        height: 300px;
+        background: #0723A6;
+        position: absolute;
+        top: 90px;
+        left: 230px;
+        border-radius: 100%;
+      }
+
+      }
+      .white {
+        width: 200px;
+        height: 200px;
+        top: 140px;
+        left: 280px;
+        background: pink;
+        position: absolute;
+        border-radius: 100%;
+        z-index: 1;
+      }
+      .red {
+        width: 10px;
+        height: 200px;
+        background: #F6472C;
+        position: absolute;
+        top: 200px;
+        left: 500px;
+
+      }
+      .red2 {
+        width: 10px;
+        height: 200px;
+        background: #F6472C;
+        position: absolute;
+        top: 200px;
+        left: 520px;
+
+      }
+      .red3 {
+        width: 10px;
+        height: 200px;
+        background: #F6472C;
+        position: absolute;
+        top: 200px;
+        left: 540px;
+
+      }
+      .triangle {
+    width: 0;
+    height: ;
+    top: 360px;
+    left: 250px;
+    position: absolute;
+    z-index: 2
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 180px solid #FDE300;
+    transform: rotate(-30deg);
+}
+.triangle:active {
+  transform:rotate(360deg);
+}
+   }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="black"></div>
+    <div class="green"></div>
+    <div class="circle"></div>
+    <div class="white"></div>
+    <div class="red"></div>
+    <div class="red2"></div>
+    <div class="red3"></div>
+    <div class="triangle"></div>
+
+
+
+  </body>
+</html>
